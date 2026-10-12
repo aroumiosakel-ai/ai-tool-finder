@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Discover AI tools for coding, studying, writing, design and productivity."
+  >
+
+  <meta name="theme-color" content="#0b0d12">
+  <title>AI Finder — Discover Your Next AI Tool</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#" class="logo" aria-label="AI Finder home">
+      <span class="logo-mark">✳</span>
+      AI<span class="logo-accent">Finder</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#tools">Explore Tools</a>
+      <a href="#categories">Categories</a>
+    </nav>
+
+    <a href="#tools" class="nav-button">Explore Directory ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+
+      <div class="tag">
+        <span class="status-dot"></span>
+        YOUR PERSONAL AI DIRECTORY
+      </div>
+
+      <h1>
+        The right AI changes<br>
+        <span>everything.</span>
+      </h1>
+
+      <p class="hero-description">
+        Discover tools that help you learn faster, build smarter
+        and turn your ideas into reality.
+      </p>
+
+      <form class="search-box" id="searchForm">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search tools, tasks or categories..."
+          aria-label="Search AI tools"
+          autocomplete="off"
+        >
+
+        <button type="submit">Search <span>↗</span></button>
+      </form>
+
+      <p class="search-hint">
+        Try “coding”, “writing” or “design”
+      </p>
+
+      <div class="hero-stats">
+        <div>
+          <strong>12</strong>
+          <span>AI tools</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div>
+          <strong>6</strong>
+          <span>Categories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div>
+          <strong>Free</strong>
+          <span>To explore</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-section" id="tools">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE DIRECTORY</p>
+          <h2>Find your next favourite.</h2>
+          <p class="section-description">
+            Handpicked tools for your everyday workflow.
+          </p>
+        </div>
+
+        <span class="tool-count" id="toolCount">12 tools</span>
+      </div>
+
+      <div class="category-filters" id="categories" aria-label="Filter tools by category">
+        <button class="filter-btn active" data-category="All" aria-pressed="true">All Tools</button>
+        <button class="filter-btn" data-category="Coding" aria-pressed="false">⌘ Coding</button>
+        <button class="filter-btn" data-category="Design" aria-pressed="false">✳ Design</button>
+        <button class="filter-btn" data-category="Writing" aria-pressed="false">✎ Writing</button>
+        <button class="filter-btn" data-category="Study" aria-pressed="false">◇ Study</button>
+        <button class="filter-btn" data-category="Productivity" aria-pressed="false">↗ Productivity</button>
+        <button class="filter-btn" data-category="Research" aria-pressed="false">⌕ Research</button>
+      </div>
+
+      <div id="toolResults" aria-live="polite"></div>
+    </section>
+
+    <section class="bottom-cta">
+      <div class="cta-symbol">✳</div>
+      <div>
+        <h2>Better tools. Better possibilities.</h2>
+        <p>Your next great idea might start with the right AI tool.</p>
+      </div>
+      <a href="#tools" class="cta-link">Explore tools ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo">
+      <span class="logo-mark">✳</span>
+      AI<span class="logo-accent">Finder</span>
+    </a>
+    <p>Built to make discovering AI simpler.</p>
+    <span class="footer-note">Independent directory · 2026</span>
+  </footer>
+  
+<!-- About the Creator -->
+<section class="creator-section" id="about">
+  <div class="creator-card">
+    <span class="creator-label">THE CREATOR</span>
+
+    <h2>Built with curiosity.<br>
+      <span>Designed for discovery.</span>
+    </h2>
+
+    <p class="creator-description">
+      AI Tool Finder is a project created to help people
+      discover useful AI tools in one place.
+    </p>
+
+    <div class="creator-profile">
+      <div class="creator-avatar">AK</div>
+      <div class="creator-info">
+        <h3>Ashish Kumar</h3>
+        <p>Creator & Developer of AI Tool Finder</p>
+      </div>
+    </div>
+
+    <div class="creator-divider"></div>
+
+    <p class="creator-note">
+      Made with passion, creativity and code.
+    </p>
+  </div>
+</section>
+
+<!-- Website Footer -->
+<footer class="site-footer">
+  <div class="footer-brand">AI <span>Tool Finder</span></div>
+
+  <p>Discover smarter ways to work with AI.</p>
+
+  <div class="footer-bottom">
+    <span>© 2026 AI Tool Finder</span>
+    <span>Created by Ashish Kumar</span>
+  </div>
+</footer>
+
+</body>
+</html>
